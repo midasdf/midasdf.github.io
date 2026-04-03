@@ -18,7 +18,7 @@
 		<div class="project-card">
 			<div class="project-header">
 				<span class="project-name"><a href="https://github.com/midasdf/zt">zt</a></span>
-				<span class="project-status active">Active</span>
+				<span class="project-status dogfooding">Dogfooding</span>
 			</div>
 			<div class="project-desc">Zero-dependency terminal emulator — fast startup, high throughput</div>
 			<div class="project-meta"><a href="https://github.com/midasdf/zt">github.com/midasdf/zt</a></div>
@@ -27,7 +27,7 @@
 		<div class="project-card">
 			<div class="project-header">
 				<span class="project-name"><a href="https://github.com/midasdf/zephwm">zephwm</a></span>
-				<span class="project-status active">Active</span>
+				<span class="project-status dogfooding">Dogfooding</span>
 			</div>
 			<div class="project-desc">i3-compatible tiling window manager in Zig</div>
 			<div class="project-meta"><a href="https://github.com/midasdf/zephwm">github.com/midasdf/zephwm</a></div>
@@ -36,7 +36,7 @@
 		<div class="project-card">
 			<div class="project-header">
 				<span class="project-name"><a href="https://github.com/midasdf/zplit">zplit</a></span>
-				<span class="project-status active">Active</span>
+				<span class="project-status dogfooding">Dogfooding</span>
 			</div>
 			<div class="project-desc">Terminal multiplexer in Zig</div>
 			<div class="project-meta"><a href="https://github.com/midasdf/zplit">github.com/midasdf/zplit</a></div>
