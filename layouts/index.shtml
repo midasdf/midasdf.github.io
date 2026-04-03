@@ -45,7 +45,7 @@
 		<div class="project-card">
 			<div class="project-header">
 				<span class="project-name"><a href="https://github.com/midasdf/sshz">sshz</a></span>
-				<span class="project-status wip">WIP</span>
+				<span class="project-status active">Active</span>
 			</div>
 			<div class="project-desc">SSH management TUI in Zig</div>
 			<div class="project-meta"><a href="https://github.com/midasdf/sshz">github.com/midasdf/sshz</a></div>
