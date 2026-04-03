@@ -1,0 +1,23 @@
+---
+.title = "$ cat about.txt",
+.date = @date("2026-04-03T00:00:00"),
+.author = "midasdf",
+.layout = "page.shtml",
+.draft = false,
+---
+
+I like building small, focused tools in Zig.
+
+Most of my projects target constrained environments — low memory, minimal dependencies, fast startup. Things like terminal emulators, window managers, and multiplexers where every byte counts.
+
+## Interests
+
+- Systems programming with Zig
+- Terminal and TUI applications
+- Window management and desktop environments
+- Browser engine internals
+- Embedded / low-resource computing (RPi Zero, etc.)
+
+## Philosophy
+
+Keep it simple. Keep it small. If the standard library already does it, don't reinvent it. If you can do it without a dependency, do.

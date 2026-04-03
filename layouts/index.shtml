@@ -1,0 +1,79 @@
+<extend template="base.shtml">
+<head id="head">
+</head>
+<body id="body">
+	<div class="hero">
+		<div class="prompt-line">$ whoami</div>
+		<div class="response">> midasdf</div>
+		<div class="tagline">Building zero-dependency tools in Zig for constrained environments.</div>
+		<div class="links">
+			<a href="https://github.com/midasdf">GitHub</a>
+		</div>
+		<span class="cursor"></span>
+	</div>
+
+	<div class="section-header">~/projects</div>
+
+	<div class="projects">
+		<div class="project-card">
+			<div class="project-header">
+				<span class="project-name"><a href="https://github.com/midasdf/zt">zt</a></span>
+				<span class="project-status active">Active</span>
+			</div>
+			<div class="project-desc">Zero-dependency terminal emulator — fast startup, high throughput</div>
+			<div class="project-meta"><a href="https://github.com/midasdf/zt">github.com/midasdf/zt</a></div>
+		</div>
+
+		<div class="project-card">
+			<div class="project-header">
+				<span class="project-name"><a href="https://github.com/midasdf/zephwm">zephwm</a></span>
+				<span class="project-status active">Active</span>
+			</div>
+			<div class="project-desc">i3-compatible tiling window manager in Zig</div>
+			<div class="project-meta"><a href="https://github.com/midasdf/zephwm">github.com/midasdf/zephwm</a></div>
+		</div>
+
+		<div class="project-card">
+			<div class="project-header">
+				<span class="project-name"><a href="https://github.com/midasdf/zplit">zplit</a></span>
+				<span class="project-status active">Active</span>
+			</div>
+			<div class="project-desc">Terminal multiplexer in Zig</div>
+			<div class="project-meta"><a href="https://github.com/midasdf/zplit">github.com/midasdf/zplit</a></div>
+		</div>
+
+		<div class="project-card">
+			<div class="project-header">
+				<span class="project-name"><a href="https://github.com/midasdf/sshz">sshz</a></span>
+				<span class="project-status wip">WIP</span>
+			</div>
+			<div class="project-desc">SSH management TUI</div>
+			<div class="project-meta"><a href="https://github.com/midasdf/sshz">github.com/midasdf/sshz</a></div>
+		</div>
+
+		<div class="project-card">
+			<div class="project-header">
+				<span class="project-name"><a href="https://github.com/midasdf/suzume">suzume</a></span>
+				<span class="project-status experimental">Experimental</span>
+			</div>
+			<div class="project-desc">Lightweight GUI browser in Zig</div>
+			<div class="project-meta"><a href="https://github.com/midasdf/suzume">github.com/midasdf/suzume</a></div>
+		</div>
+
+		<div class="project-card">
+			<div class="project-header">
+				<span class="project-name"><a href="https://github.com/midasdf/lcc">LCC</a></span>
+				<span class="project-status experimental">Experimental</span>
+			</div>
+			<div class="project-desc">Claude Code CLI wrapper</div>
+			<div class="project-meta"><a href="https://github.com/midasdf/lcc">github.com/midasdf/lcc</a></div>
+		</div>
+	</div>
+
+	<div :html="$page.content()"></div>
+
+	<div class="sponsor-section">
+		<p>$ cat sponsor.txt</p>
+		<p class="sponsor-text">If you find these tools useful, consider supporting: <a href="https://github.com/sponsors/midasdf">GitHub Sponsors</a> · <a href="https://ko-fi.com/midasdf">Ko-fi</a> · <a href="https://www.patreon.com/c/midasdf">Patreon</a></p>
+	</div>
+</body>

@@ -1,0 +1,7 @@
+Site {
+    .title = "midasdf",
+    .host_url = "https://midasdf.github.io",
+    .content_dir_path = "content",
+    .layouts_dir_path = "layouts",
+    .assets_dir_path = "assets",
+}

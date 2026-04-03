@@ -1,0 +1,9 @@
+---
+.title = "$ ls ~/blog",
+.date = @date("2026-04-03T00:00:00"),
+.author = "midasdf",
+.layout = "page.shtml",
+.draft = false,
+---
+
+Nothing here yet. Check back later.

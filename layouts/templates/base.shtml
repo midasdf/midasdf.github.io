@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title :text="$site.title"></title>
+		<meta name="description" content="midasdf — Building zero-dependency tools in Zig">
+		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+		<super>
+	</head>
+	<body id="body">
+		<nav>
+			<span class="prompt">$</span>
+			<a href="$site.page('').link()">~/home</a>
+			<span class="sep">|</span>
+			<a href="$site.page('about').link()">~/about</a>
+			<span class="sep">|</span>
+			<a href="$site.page('blog').link()">~/blog</a>
+		</nav>
+		<super>
+		<footer>
+			<p>built with Zine + Zig // hosted on GitHub Pages</p>
+		</footer>
+	</body>
+</html>

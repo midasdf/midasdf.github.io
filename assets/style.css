@@ -1,0 +1,337 @@
+/* === Terminal Portfolio — midasdf === */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+    --bg: #0a0a0a;
+    --bg-card: #0d1117;
+    --text: #c9d1d9;
+    --text-muted: #8b949e;
+    --accent: #00ff41;
+    --accent-dim: #00cc33;
+    --amber: #f0c040;
+    --border: #21262d;
+    --border-hover: #00ff41;
+    --font: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    max-width: 820px;
+    width: 100%;
+    padding: 2rem 1.5rem;
+}
+
+/* === Navigation === */
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 0.2rem 0;
+    transition: color 0.15s;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--accent);
+}
+
+nav .sep {
+    color: var(--border);
+}
+
+nav .prompt {
+    color: var(--accent);
+    user-select: none;
+}
+
+/* === Typography === */
+
+h1, h2, h3, h4, h5 {
+    color: var(--text);
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.8rem;
+    color: var(--accent);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+a:hover {
+    color: #fff;
+}
+
+b, strong {
+    color: #fff;
+}
+
+code {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* === Hero === */
+
+.hero {
+    border: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.hero .prompt-line {
+    color: var(--accent);
+    margin-bottom: 0.3rem;
+}
+
+.hero .response {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.hero .tagline {
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.hero .links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero .links a {
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    transition: all 0.15s;
+}
+
+.hero .links a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.cursor {
+    display: inline-block;
+    width: 0.6rem;
+    height: 1.1rem;
+    background: var(--accent);
+    animation: blink 1s step-end infinite;
+    vertical-align: text-bottom;
+    margin-left: 0.2rem;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* === Project Cards === */
+
+.projects {
+    display: grid;
+    gap: 1rem;
+}
+
+.project-card {
+    border: 1px solid var(--border);
+    padding: 1.2rem 1.5rem;
+    transition: border-color 0.2s;
+    background: var(--bg-card);
+}
+
+.project-card:hover {
+    border-color: var(--accent);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.project-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.project-name a {
+    color: #fff;
+}
+
+.project-name a:hover {
+    color: var(--accent);
+}
+
+.project-status {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+}
+
+.project-status.active {
+    color: var(--accent);
+    border-color: var(--accent-dim);
+}
+
+.project-status.wip {
+    color: var(--amber);
+    border-color: var(--amber);
+}
+
+.project-status.experimental {
+    color: var(--text-muted);
+    border-color: var(--text-muted);
+}
+
+.project-desc {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+}
+
+.project-meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.project-meta a {
+    color: var(--text-muted);
+}
+
+.project-meta a:hover {
+    color: var(--accent);
+}
+
+/* === About Page === */
+
+.about-content {
+    line-height: 1.7;
+}
+
+.about-content h2 {
+    margin-top: 2rem;
+}
+
+.about-content ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.about-content ul li::before {
+    content: ">";
+    color: var(--accent);
+    margin-right: 0.5rem;
+}
+
+/* === Section Header === */
+
+.section-header {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+}
+
+/* === Sponsor === */
+
+.sponsor-section {
+    margin-top: 2.5rem;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.sponsor-section p:first-child {
+    color: var(--border);
+    margin-bottom: 0.2rem;
+}
+
+.sponsor-text a {
+    color: var(--text-muted);
+    border-bottom: 1px dashed var(--border);
+    transition: color 0.15s;
+}
+
+.sponsor-text a:hover {
+    color: var(--accent);
+}
+
+/* === Footer === */
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+/* === Responsive === */
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    .hero {
+        padding: 1rem 1.2rem;
+    }
+
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+}
