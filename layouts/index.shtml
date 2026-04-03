@@ -47,7 +47,7 @@
 				<span class="project-name"><a href="https://github.com/midasdf/sshz">sshz</a></span>
 				<span class="project-status wip">WIP</span>
 			</div>
-			<div class="project-desc">SSH management TUI</div>
+			<div class="project-desc">SSH management TUI in Zig</div>
 			<div class="project-meta"><a href="https://github.com/midasdf/sshz">github.com/midasdf/sshz</a></div>
 		</div>
 
@@ -58,15 +58,6 @@
 			</div>
 			<div class="project-desc">Lightweight GUI browser in Zig</div>
 			<div class="project-meta"><a href="https://github.com/midasdf/suzume">github.com/midasdf/suzume</a></div>
-		</div>
-
-		<div class="project-card">
-			<div class="project-header">
-				<span class="project-name"><a href="https://github.com/midasdf/lcc">LCC</a></span>
-				<span class="project-status experimental">Experimental</span>
-			</div>
-			<div class="project-desc">Claude Code CLI wrapper</div>
-			<div class="project-meta"><a href="https://github.com/midasdf/lcc">github.com/midasdf/lcc</a></div>
 		</div>
 	</div>
 
