@@ -1,0 +1,21 @@
+---
+.title = "特定商取引法に基づく表記",
+.date = @date("2026-04-04T00:00:00"),
+.author = "midasdf",
+.layout = "page.shtml",
+.draft = false,
+---
+
+*This page exists solely for compliance with Japanese domestic law (特定商取引法 / Act on Specified Commercial Transactions).*
+
+## 特定商取引法に基づく表記
+
+| 項目 | 内容 |
+|------|------|
+| 販売業者 | 請求があった場合に遅滞なく開示します |
+| 所在地 | 請求があった場合に遅滞なく開示します |
+| 電話番号 | 請求があった場合に遅滞なく開示します |
+| 販売価格 | 支援者が任意で決定 |
+| 支払方法 | Stripe・PayPal |
+| 商品引渡し | 寄付・支援のため商品の引渡しはありません |
+| 返品・返金 | 寄付の性質上、返金は原則行いません |
