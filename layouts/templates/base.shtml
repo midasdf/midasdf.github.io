@@ -20,7 +20,6 @@
 		<super>
 		<footer>
 			<p>built with Zine + Zig // hosted on GitHub Pages</p>
-			<p><a href="$site.page('legal').link()">特定商取引法に基づく表記</a></p>
 		</footer>
 	</body>
 </html>
